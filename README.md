@@ -1,7 +1,17 @@
 # Raghav Agrawal - Digital Nurture Java FSE
 
-This repository contains my Cognizant Digital Nurture Java FSE hands-on exercises, assignments, notes, and projects.
+This repository contains my Cognizant Digital Nurture Java FSE assignments and practice programs.
 
-## Week 1
+## Design Patterns and Principles
+
 - Design Principles
 - Design Patterns
+
+## Data Structures and Algorithms (DSA)
+
+- Big O Notation
+- Searching Algorithms
+- Recursion
+- Time Complexity
+
+More topics will be added as I continue the training.
