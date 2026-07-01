@@ -9,9 +9,10 @@ This repository contains my Cognizant Digital Nurture Java FSE assignments and p
 
 ## Data Structures and Algorithms (DSA)
 
-- Big O Notation
-- Searching Algorithms
-- Recursion
-- Time Complexity
+- Analysis of Algorithms
+- Sorting
+- Arrays
+- Linked List 
+- Searching 
 
 More topics will be added as I continue the training.
