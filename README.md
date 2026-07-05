@@ -16,3 +16,5 @@ This repository contains my Cognizant Digital Nurture Java FSE assignments and p
 - Searching 
 
 More topics will be added as I continue the training.
+
+##UPDATED THE STRUCTURE 
