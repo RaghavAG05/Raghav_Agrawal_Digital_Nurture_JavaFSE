@@ -1,20 +1,27 @@
 # Raghav Agrawal - Digital Nurture Java FSE
 
-This repository contains my Cognizant Digital Nurture Java FSE assignments and practice programs.
+This repository contains my solutions, assignments, and practice programs completed as part of the **Cognizant Digital Nurture – Java Full Stack Engineer (Java FSE)** training program.
 
-## Design Patterns and Principles
+## Contents
 
-- Design Principles
-- Design Patterns
+* Design Patterns and Principles
 
-## Data Structures and Algorithms (DSA)
+  * Design Principles
+  * Design Patterns
+* Data Structures and Algorithms (DSA)
 
-- Analysis of Algorithms
-- Sorting
-- Arrays
-- Linked List 
-- Searching 
+  * Analysis of Algorithms
+  * Sorting
+  * Arrays
+  * Linked List
+  * Searching
 
-More topics will be added as I continue the training.
+> Additional topics and assignments will be added as the training progresses.
 
-##UPDATED THE STRUCTURE 
+## Repository Structure
+
+The repository is organized according to the Digital Nurture Java FSE training curriculum, with each module containing its respective exercises and assignments.
+
+## Author
+
+**Raghav Agrawal**
