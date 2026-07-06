@@ -1,6 +1,6 @@
 # JUnit Basic Testing Exercises
 
-This folder contains the solutions for the **JUnit Basic Testing Exercises** as part of the **Digital Nurture 4.0 – Java FSE** program.
+This folder contains the solutions for the **JUnit Basic Testing Exercises** as part of the **Digital Nurture 5.0 – Java FSE** program.
 
 ## Exercises
 
