@@ -4,17 +4,24 @@ This repository contains my solutions, assignments, and practice programs comple
 
 ## Contents
 
-* Design Patterns and Principles
+- Design Patterns and Principles
 
-  * Design Principles
-  * Design Patterns
-* Data Structures and Algorithms (DSA)
+  - Design Principles
+  - Design Patterns
 
-  * Analysis of Algorithms
-  * Sorting
-  * Arrays
-  * Linked List
-  * Searching
+- Data Structures and Algorithms (DSA)
+
+  - Analysis of Algorithms
+  - Sorting
+  - Arrays
+  - Linked List
+  - Searching
+
+- JUnit, Mockito and SLF4J
+
+  - JUnit Basic Testing
+  - Mockito *(Coming Soon)*
+  - SLF4J *(Coming Soon)*
 
 > Additional topics and assignments will be added as the training progresses.
 
