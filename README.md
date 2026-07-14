@@ -33,7 +33,9 @@ This repository contains my solutions, assignments, and practice programs comple
 * Mocking and Stubbing
 * Verifying Interactions
 
-#### SLF4J *(Coming Soon)*
+#### SLF4J
+
+* Logging Error Messages and Warning Levels
 
 Additional topics and assignments will be added as the training progresses.
 
