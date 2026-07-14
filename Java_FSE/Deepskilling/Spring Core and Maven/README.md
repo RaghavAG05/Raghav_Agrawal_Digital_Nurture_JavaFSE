@@ -17,29 +17,47 @@ This module contains hands-on exercises completed as part of the **Cognizant Dig
 * Injected `BookRepository` into `BookService` using Setter Injection.
 * Verified dependency injection through the Spring container.
 
+### Exercise 4: Creating and Configuring a Maven Project
+
+* Created a Maven project for the Library Management application.
+* Configured project metadata in `pom.xml`.
+* Added Spring Framework dependencies.
+* Configured the Maven Compiler Plugin.
+* Successfully built and executed the Maven project.
+
 ### Exercise 5: Configuring the Spring IoC Container
 
-* Configured beans using XML.
-* Loaded and managed beans using the Spring IoC Container.
-* Retrieved beans using `ApplicationContext`.
+* Configured Spring beans using XML configuration.
+* Loaded beans using the Spring IoC Container.
+* Retrieved beans through `ApplicationContext`.
+* Verified bean creation and dependency management.
 
 ### Exercise 7: Implementing Constructor and Setter Injection
 
 * Implemented Constructor Injection.
 * Implemented Setter Injection.
-* Compared both dependency injection techniques.
-* Verified successful bean initialization and dependency injection.
+* Configured both injection techniques using Spring XML.
+* Verified successful dependency injection through the Spring IoC Container.
 
 ## Concepts Covered
 
 * Spring Framework Basics
+* Maven Project Configuration
+* Dependency Management
 * Spring IoC Container
 * Bean Configuration
 * XML Configuration
 * Dependency Injection
 * Constructor Injection
 * Setter Injection
-* Maven Project Structure
+* ApplicationContext
+
+## Technologies Used
+
+* Java 25
+* Maven
+* Spring Framework 6
+* IntelliJ IDEA
 
 ## Author
 
