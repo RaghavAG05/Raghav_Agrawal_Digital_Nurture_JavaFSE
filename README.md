@@ -8,8 +8,20 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 
 ### Engineering Concepts
 
-* Design Patterns and Principles
-* Data Structures and Algorithms (DSA)
+#### Design Patterns and Principles
+
+* Singleton Pattern
+* Factory Method Pattern
+
+#### Data Structures and Algorithms (DSA)
+
+* Analysis of Algorithms
+* Searching Algorithms
+* Sorting Algorithms
+* Arrays
+* Linked List
+* Financial Forecasting
+* E-Commerce Platform Search Function
 
 ### JUnit, Mockito and SLF4J
 
@@ -24,6 +36,8 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 
 * Parameterized Tests
 * Test Suites
+* Test Execution Order
+* Exception Testing
 
 #### Mockito
 
@@ -38,10 +52,11 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 
 #### Spring Core
 
-* Configuring a Basic Spring Application
-* Implementing Dependency Injection
-* Configuring the Spring IoC Container
-* Implementing Constructor and Setter Injection
+* Exercise 1: Configuring a Basic Spring Application
+* Exercise 2: Implementing Dependency Injection
+* Exercise 4: Creating and Configuring a Maven Project
+* Exercise 5: Configuring the Spring IoC Container
+* Exercise 7: Implementing Constructor and Setter Injection
 
 ---
 
@@ -70,7 +85,6 @@ Raghav_Agrawal_Digital_Nurture_JavaFSE
     └── Deepskilling
         │
         ├── Engineering_Concepts
-        │   │
         │   ├── Design_Patterns_And_Principles
         │   │   ├── SingletonPattern
         │   │   ├── FactoryMethodPattern
@@ -92,20 +106,25 @@ Raghav_Agrawal_Digital_Nurture_JavaFSE
         │   │
         │   ├── Advanced_JUnit_Testing
         │   │   ├── Exercise_1_Parameterized_Tests
-        │   │   └── Exercise_2_Test_Suites
+        │   │   ├── Exercise_2_Test_Suites
+        │   │   ├── Exercise_3_Test_Execution_Order
+        │   │   └── Exercise_4_Exception_Testing
         │   │
         │   ├── Mockito
         │   │   ├── Exercise_1_Mocking_And_Stubbing
-        │   │   └── Exercise_2_Verifying_Interactions
+        │   │   ├── Exercise_2_Verifying_Interactions
+        │   │   └── README.md
         │   │
         │   ├── SLF4J
-        │   │   └── Exercise_1_Logging_Error_Messages_And_Warning_Levels
+        │   │   ├── Exercise_1_Logging_Error_Messages_And_Warning_Levels
+        │   │   └── README.md
         │   │
         │   └── README.md
         │
         ├── Spring_Core_And_Maven
         │   ├── Exercise_1_Configuring_A_Basic_Spring_Application
         │   ├── Exercise_2_Implementing_Dependency_Injection
+        │   ├── Exercise_4_Creating_And_Configuring_A_Maven_Project
         │   ├── Exercise_5_Configuring_the_Spring_IoC_Container
         │   ├── Exercise_7_Implementing_Constructor_And_Setter_Injection
         │   └── README.md
@@ -117,9 +136,9 @@ Raghav_Agrawal_Digital_Nurture_JavaFSE
 
 ## About This Repository
 
-This repository is organized according to the Cognizant Digital Nurture Java FSE curriculum. Each module contains hands-on exercises, assignments, and practice programs completed during the training.
+This repository is organized according to the **Cognizant Digital Nurture Java FSE** training curriculum. Each module contains hands-on exercises, assignments, and practice programs completed during the training.
 
-The repository will continue to grow as additional topics are covered, including:
+The repository will continue to be updated with upcoming modules, including:
 
 * Spring Boot
 * Spring Data JPA
@@ -136,3 +155,5 @@ The repository will continue to grow as additional topics are covered, including
 
 **Raghav Agrawal**
 
+* B.Tech in Computer Science & Engineering
+* Cognizant Digital Nurture – Java Full Stack Engineer (Java FSE)
