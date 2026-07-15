@@ -1,0 +1,74 @@
+Difference between JPA, Hibernate and Spring Data JPA
+
+Java Persistence API (JPA)
+
+-   JPA (Java Persistence API) is a Java specification (JSR 338) for
+    Object Relational Mapping (ORM).
+-   JPA defines standard interfaces and annotations for mapping Java
+    objects to database tables.
+-   JPA itself does not provide any implementation.
+-   Common JPA annotations include @Entity, @Table, @Id and @Column.
+
+Hibernate
+
+-   Hibernate is one of the most popular implementations of JPA.
+-   Hibernate is an ORM framework that performs the actual database
+    operations.
+-   It automatically generates SQL queries and manages CRUD operations,
+    transactions, caching and lazy loading.
+-   Hibernate can also be used without JPA.
+
+Spring Data JPA
+
+-   Spring Data JPA is a Spring Framework module built on top of JPA.
+-   It provides an abstraction layer over Hibernate/JPA.
+-   It reduces boilerplate code by allowing developers to use repository
+    interfaces like JpaRepository.
+-   Spring Data JPA internally uses a JPA provider such as Hibernate.
+
+Difference
+
+  Feature              JPA             Hibernate        Spring Data JPA
+  -------------------- --------------- ---------------- --------------------
+  Type                 Specification   ORM Framework    Spring Module
+  Implementation       No              Yes              Uses JPA/Hibernate
+  SQL Generation       No              Yes              Through Hibernate
+  Boilerplate Code     High            Medium           Very Low
+  Repository Support   No              No               Yes
+  Developed By         Oracle/JCP      Hibernate Team   Spring Team
+
+Relationship
+
+   Application 
+	↓
+ Spring Data JPA 
+	↓ 
+    Hibernate 
+        ↓ 
+  JPA Specification 
+        ↓ 
+    Database(MySQL)
+Advantages
+
+JPA
+- Standard API for persistence.
+- Vendor-independent.
+- Easy to switch ORM providers.
+
+Hibernate
+- Powerful ORM framework.
+- Automatic SQL generation.
+- Advanced features like caching and lazy loading.
+
+Spring Data JPA
+- Minimal coding required.
+- Built-in repository methods.
+- Easy integration with Spring Boot.
+- Faster application development.
+
+Conclusion
+
+-   JPA defines persistence standards.
+-   Hibernate implements JPA.
+-   Spring Data JPA simplifies database access by using Hibernate
+    internally.
