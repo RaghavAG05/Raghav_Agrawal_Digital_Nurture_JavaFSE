@@ -6,101 +6,79 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 
 # Contents
 
-## Engineering Concepts
+- Engineering Concepts
+  - Design Patterns and Principles
+    - Singleton Pattern
+    - Factory Method Pattern
+  - Data Structures and Algorithms (DSA)
+    - Analysis of Algorithms
+    - Searching Algorithms
+    - Sorting Algorithms
+    - Arrays
+    - Linked List
+    - Financial Forecasting
+    - E-Commerce Platform Search Function
 
-### Design Patterns and Principles
+- JUnit, Mockito and SLF4J
+  - JUnit Basic Testing
+    - Setting Up JUnit
+    - Writing Basic JUnit Tests
+    - Assertions in JUnit
+    - AAA Pattern, Test Fixtures, Setup & Teardown
+  - Advanced JUnit Testing
+    - Parameterized Tests
+    - Test Suites
+    - Test Execution Order
+    - Exception Testing
+  - Mockito
+    - Mocking and Stubbing
+    - Verifying Interactions
+  - SLF4J
+    - Logging Error Messages and Warning Levels
 
-- Singleton Pattern
-- Factory Method Pattern
+- PL SQL Programming
+  - Exercise 1: Control Structures
+    - Loan Interest Discount
+    - VIP Customer Promotion
+    - Loan Due Reminders
+  - Exercise 3: Stored Procedures
+    - Process Monthly Interest
+    - Update Employee Bonus
+    - Transfer Funds
 
-### Data Structures and Algorithms (DSA)
+- Spring Core and Maven
+  - Exercise 1: Configuring a Basic Spring Application
+  - Exercise 2: Implementing Dependency Injection
+  - Exercise 4: Creating and Configuring a Maven Project
+  - Exercise 5: Configuring the Spring IoC Container
+  - Exercise 7: Implementing Constructor and Setter Injection
 
-- Analysis of Algorithms
-- Searching Algorithms
-- Sorting Algorithms
-- Arrays
-- Linked List
-- Financial Forecasting
-- E-Commerce Platform Search Function
+- Spring Data JPA with Hibernate
+  - Spring Data JPA Quick Example
+  - Spring Boot Configuration
+  - Spring Data JPA Configuration
+  - Hibernate Integration
+  - MySQL Database Connectivity
+  - Country Management
+    - Implement Services for Managing Country
+    - Find Country Based on Country Code
+    - Add New Country
+  - Query Methods
+    - Search by Containing Text
+    - Search by Starting Text
+    - Case-Insensitive Search
+    - Sorting using Query Methods
 
----
-
-## JUnit, Mockito and SL4J
-
-### JUnit Basic Testing
-
-- Setting Up JUnit
-- Writing Basic JUnit Tests
-- Assertions in JUnit
-- AAA Pattern, Test Fixtures, Setup & Teardown
-
-### Advanced JUnit Testing
-
-- Parameterized Tests
-- Test Suites
-- Test Execution Order
-- Exception Testing
-
-### Mockito
-
-- Mocking and Stubbing
-- Verifying Interactions
-
-### SLF4J
-
-- Logging Error Messages and Warning Levels
-
----
-
-## PL SQL Programming
-
-### Exercise 1: Control Structures
-
-- Loan Interest Discount
-- VIP Customer Promotion
-- Loan Due Reminders
-
-### Exercise 3: Stored Procedures
-
-- Process Monthly Interest
-- Update Employee Bonus
-- Transfer Funds
-
----
-
-## Spring Core and Maven
-
-### Spring Core
-
-- Exercise 1: Configuring a Basic Spring Application
-- Exercise 2: Implementing Dependency Injection
-- Exercise 4: Creating and Configuring a Maven Project
-- Exercise 5: Configuring the Spring IoC Container
-- Exercise 7: Implementing Constructor and Setter Injection
-
----
-
-## Spring Data JPA with Hibernate
-
-### Spring Data JPA - Quick Example
-
-- Spring Boot configuration
-- Spring Data JPA configuration
-- Hibernate integration
-- MySQL database connectivity
-
-### Country Management
-
-- Implement Services for Managing Country
-- Find Country Based on Country Code
-- Add a New Country
-
-### Query Methods
-
-- Search by Containing Text
-- Search by Starting Text
-- Case-Insensitive Search
-- Sorting using Query Methods
+- Spring REST using Spring Boot 3
+  - Spring REST Handson
+    - Create a Spring Web Project
+    - Load Country from Spring XML Configuration
+  - Spring REST Web Services
+    - Hello World RESTful Web Service
+    - Country Web Service
+    - Get Country Based on Country Code
+  - JWT Handson
+    - Create Authentication Service that Returns JWT
 
 ---
 
@@ -109,10 +87,14 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 - Java 25
 - Spring Framework
 - Spring Boot
+- Spring Security
 - Spring Data JPA
 - Hibernate ORM
+- REST APIs
+- JWT (JSON Web Token)
 - Maven
 - MySQL
+- Oracle SQL
 - Oracle PL/SQL
 - JUnit 5
 - Mockito
@@ -121,7 +103,7 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 - Git
 - GitHub
 - IntelliJ IDEA
-- Oracle SQL
+- Postman
 
 ---
 
@@ -152,28 +134,11 @@ Raghav_Agrawal_Digital_Nurture_JavaFSE
 │       │   │
 │       │   └── README.md
 │       │
-│       ├── JUnit, Mockito and SL4J
+│       ├── JUnit, Mockito and SLF4J
 │       │   ├── JUnit_Basic_Testing
-│       │   │   ├── Exercise_1_Setting_Up_JUnit
-│       │   │   ├── Exercise_2_Writing_Basic_JUnit_Test
-│       │   │   ├── Exercise_3_Assertions_In_JUnit
-│       │   │   └── Exercise_4_AAA_Pattern_Test_Fixtures
-│       │   │
 │       │   ├── Advanced_JUnit_Testing
-│       │   │   ├── Exercise_1_Parameterized_Tests
-│       │   │   ├── Exercise_2_Test_Suites
-│       │   │   ├── Exercise_3_Test_Execution_Order
-│       │   │   └── Exercise_4_Exception_Testing
-│       │   │
 │       │   ├── Mockito
-│       │   │   ├── Exercise_1_Mocking_And_Stubbing
-│       │   │   ├── Exercise_2_Verifying_Interactions
-│       │   │   └── README.md
-│       │   │
 │       │   ├── SLF4J
-│       │   │   ├── Exercise_1_Logging_Error_Messages_And_Warning_Levels
-│       │   │   └── README.md
-│       │   │
 │       │   └── README.md
 │       │
 │       ├── PL SQL programming
@@ -190,16 +155,29 @@ Raghav_Agrawal_Digital_Nurture_JavaFSE
 │       │   └── README.md
 │       │
 │       ├── Spring Data JPA with Hibernate
-│           ├── 1. spring-data-jpa-handson
-│           │   ├── Spring Data JPA - Quick Example
-│           │   ├── Difference between JPA, Hibernate and Spring Data JPA
-│           │   ├── Exercise_2_Implement_Services_For_Managing_Country
-│           │   ├── Exercise_3_Find_Country_Based_On_Country_Code
-│           │   ├── Exercise_4_Add_New_Country
-│           │   └── README.md
+│       │   ├── 1. spring-data-jpa-handson
+│       │   ├── 2. spring-data-jpa-handson
+│       │   
+│       │
+│       ├── Spring REST using Spring Boot
+│           ├── 1. spring-rest-handson
+│           │   ├── Exercise_1_Create_A_Spring_Web_Project
+│           │   ├── Exercise_2_Load_Country_From_Spring_XML
+│           │   
 │           │
-│           ├── 2. spring-data-jpa-handson
-│           ├── Query_Methods_Country
+│           ├── 2. spring-rest-handson
+│           │   ├── Hello World RESTful Web Service
+│           │   ├── REST - Country Web Service
+│           │   ├── REST - Get country based on country code
+│           │   
+│           │
+│           ├── 5. JWT-handson
+│           │   ├── Create authentication service that returns JWT
+│           │  
+│           │
+│           └── README.md
+│       
+│    
 │
 └── README.md
 ```
@@ -208,20 +186,29 @@ Raghav_Agrawal_Digital_Nurture_JavaFSE
 
 # About This Repository
 
-This repository is organized according to the **Cognizant Digital Nurture Java FSE** training curriculum. Each module contains hands-on exercises, assignments, and practice programs completed during the training.
+This repository is organized according to the **Cognizant Digital Nurture Java Full Stack Engineer (Java FSE)** training curriculum.
+
+Each module contains:
+
+- Hands-on Exercises
+- Assignments
+- Practice Programs
+- Solutions
+- Sample Outputs
+- README Documentation
 
 The repository will continue to be updated with upcoming modules, including:
 
-- Spring REST APIs
-- Microservices
+- Spring Boot Advanced
+- Spring Microservices
 - React
-- GIT
 - Angular
+- Git
+- Docker
+- Kubernetes
 
 ---
 
 # Author
 
 **Raghav Agrawal**
-
-**B.Tech in Computer Science & Engineering**
