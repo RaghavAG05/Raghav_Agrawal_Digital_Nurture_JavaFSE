@@ -272,5 +272,3 @@ Upcoming modules include:
 **Raghav Agrawal**
 
 - B.Tech in Computer Science & Engineering
-- Cognizant Digital Nurture – Java Full Stack Engineer (Java FSE)
-- Passionate about Java, Spring Boot, Microservices, Full Stack Development, and Problem Solving.
