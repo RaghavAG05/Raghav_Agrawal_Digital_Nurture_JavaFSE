@@ -49,11 +49,13 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 ## PL SQL Programming
 
 ### Exercise 1: Control Structures
+
 - Loan Interest Discount
 - VIP Customer Promotion
 - Loan Due Reminders
 
 ### Exercise 3: Stored Procedures
+
 - Process Monthly Interest
 - Update Employee Bonus
 - Transfer Funds
@@ -73,17 +75,20 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 ## Spring Data JPA with Hibernate
 
 ### Spring Data JPA Quick Example
+
 - Spring Boot Configuration
 - Spring Data JPA Configuration
 - Hibernate Integration
 - MySQL Database Connectivity
 
 ### Country Management
+
 - Implement Services for Managing Country
 - Find Country Based on Country Code
 - Add New Country
 
 ### Query Methods
+
 - Search by Containing Text
 - Search by Starting Text
 - Case-Insensitive Search
@@ -94,15 +99,18 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 ## Spring REST using Spring Boot 3
 
 ### Spring REST Handson
+
 - Create a Spring Web Project
 - Load Country from Spring XML Configuration
 
 ### Spring REST Web Services
+
 - Hello World RESTful Web Service
 - Country Web Service
 - Get Country Based on Country Code
 
 ### JWT Handson
+
 - Create Authentication Service that Returns JWT
 
 ---
@@ -110,7 +118,25 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 ## Microservices with Spring Boot 3 and Spring Cloud
 
 ### Microservices with API Gateway
+
 - Creating Microservices for Account and Loan
+
+---
+
+## React
+
+### ReactJS-HOL
+
+- ReactJS-HOL 1 – Creating the First React Application
+- ReactJS-HOL 2 – React Components (Class Components)
+- ReactJS-HOL 3 – Functional Components, Props and CSS
+- ReactJS-HOL 4 – Component Lifecycle Methods
+- ReactJS-HOL 5 – CSS Modules and Styling
+- ReactJS-HOL 9 – ES6 Features in React
+- ReactJS-HOL 10 – JSX and Inline CSS
+- ReactJS-HOL 11 – Event Handling
+- ReactJS-HOL 12 – Conditional Rendering
+- ReactJS-HOL 13 – Rendering Multiple Components using Lists and Keys
 
 ---
 
@@ -126,6 +152,11 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 - REST APIs
 - Microservices Architecture
 - JWT (JSON Web Token)
+- React
+- JavaScript (ES6)
+- JSX
+- HTML5
+- CSS3
 - Maven
 - MySQL
 - Oracle SQL
@@ -137,6 +168,7 @@ This repository contains my hands-on exercises, assignments, solutions, and prac
 - Git
 - GitHub
 - IntelliJ IDEA
+- Visual Studio Code
 - Postman
 
 ---
@@ -152,20 +184,7 @@ Raghav_Agrawal_Digital_Nurture_JavaFSE
     │
     ├── Engineering Concepts
     │   ├── Design_Patterns_And_Principles
-    │   │   ├── SingletonPattern
-    │   │   ├── FactoryMethodPattern
-    │   │   └── README.md
-    │   │
     │   ├── Data_Structures_And_Algorithms
-    │   │   ├── Analysis_Of_Algorithms
-    │   │   ├── Searching_Algorithms
-    │   │   ├── Sorting_Algorithms
-    │   │   ├── Arrays
-    │   │   ├── Linked_List
-    │   │   ├── Financial_Forecasting
-    │   │   ├── E_Commerce_Platform_Search_Function
-    │   │   └── README.md
-    │   │
     │   └── README.md
     │
     ├── JUnit, Mockito and SLF4J
@@ -195,80 +214,114 @@ Raghav_Agrawal_Digital_Nurture_JavaFSE
     │
     ├── Spring REST using Spring Boot
     │   ├── 1. spring-rest-handson
-    │   │   ├── Exercise_1_Create_A_Spring_Web_Project
-    │   │   ├── Exercise_2_Load_Country_From_Spring_XML
-    │   │   └── README.md
-    │   │
     │   ├── 2. spring-rest-handson
-    │   │   ├── Hello World RESTful Web Service
-    │   │   ├── REST - Country Web Service
-    │   │   ├── REST - Get Country Based on Country Code
-    │   │   └── README.md
-    │   │
     │   ├── 5. JWT-handson
-    │   │   ├── Create Authentication Service that Returns JWT
-    │   │   └── README.md
-    │   │
     │   └── README.md
     │
     ├── Microservices
-        ├── Microservices with API Gateway
-            ├── Creating Microservices for Account and Loan
-            │   ├── account
-            │   ├── loan
-            │   └── README.md
-            │
-            └── README.md
-└── README.md
-```
+    │   ├── Microservices with API Gateway
+    │   │   ├── Creating Microservices for Account and Loan
+    │   │   └── README.md
+    │   └── README.md
+    │
+    ├── React
+    │   ├── 1. ReactJS-HOL
+    │   ├── 2. ReactJS-HOL
+    │   ├── 3. ReactJS-HOL
+    │   ├── 4. ReactJS-HOL
+    │   ├── 5. ReactJS-HOL
+    │   ├── 9. ReactJS-HOL
+    │   ├── 10. ReactJS-HOL
+    │   ├── 11. ReactJS-HOL
+    │   ├── 12. ReactJS-HOL
+    │   ├── 13. ReactJS-HOL
+    │   └── README.md
+    │
+README.md
+
 
 ---
 
 # Completed Modules
 
-- Engineering Concepts
+## ✅ Engineering Concepts
 - Design Patterns and Principles
-- Data Structures and Algorithms (DSA)
-- JUnit, Mockito and SLF4J
-- PL SQL Programming
-- Spring Core and Maven
-- Spring Data JPA with Hibernate
-- Spring REST using Spring Boot 3
-- Microservices with Spring Boot 3 and Spring Cloud
+- Data Structures and Algorithms
+
+## ✅ JUnit, Mockito and SLF4J
+- JUnit Basic Testing
+- Advanced JUnit Testing
+- Mockito
+- SLF4J
+
+## ✅ PL/SQL Programming
+- Control Structures
+- Stored Procedures
+
+## ✅ Spring Core and Maven
+- Spring IoC
+- Dependency Injection
+- Constructor Injection
+- Setter Injection
+- Maven Configuration
+
+## ✅ Spring Data JPA with Hibernate
+- Spring Boot Configuration
+- Hibernate Integration
+- CRUD Operations
+- Query Methods
+- Country Management
+
+## ✅ Spring REST using Spring Boot
+- Spring REST APIs
+- Country REST Web Service
+- JWT Authentication
+
+## ✅ Microservices
+- API Gateway
+- Account Microservice
+- Loan Microservice
+
+## ✅ React
+Completed Hands-on Exercises:
+
+- ReactJS-HOL 1 – Creating the First React Application
+- ReactJS-HOL 2 – React Components
+- ReactJS-HOL 3 – Functional Components, Props and CSS
+- ReactJS-HOL 4 – Component Lifecycle Methods
+- ReactJS-HOL 5 – CSS Modules
+- ReactJS-HOL 9 – ES6 Features
+- ReactJS-HOL 10 – JSX and Inline CSS
+- ReactJS-HOL 11 – Event Handling
+- ReactJS-HOL 12 – Conditional Rendering
+- ReactJS-HOL 13 – Lists and Keys
 
 ---
 
 # About This Repository
 
-This repository is organized according to the **Cognizant Digital Nurture – Java Full Stack Engineer (Java FSE)** training curriculum.
+This repository contains my complete learning journey for the **Cognizant Digital Nurture – Java Full Stack Engineer (Java FSE)** program.
 
-Each module contains:
+It includes:
 
 - Hands-on Exercises
-- Assignments
 - Practice Programs
-- Solutions
-- Sample Outputs
-- README Documentation
+- Assignments
+- Java Projects
+- Spring Framework Applications
+- Spring Boot Applications
+- REST APIs
+- Microservices
+- React Applications
+- Database Programming using PL/SQL
+- Unit Testing using JUnit & Mockito
 
-The repository is continuously updated as I complete new modules during the training program.
-
-Upcoming modules include:
-
-- Service Discovery
-- API Gateway
-- Config Server
-- Spring Cloud
-- Microservices Security
-- Docker
-- Kubernetes
-- React
-- Angular
+The repository is organized module-wise to make navigation easier and to track my learning progress throughout the Digital Nurture program.
 
 ---
 
 # Author
 
-**Raghav Agrawal**
+## Raghav Agrawal
 
-- B.Tech in Computer Science & Engineering
+**B.Tech – Computer Science and Engineering**
