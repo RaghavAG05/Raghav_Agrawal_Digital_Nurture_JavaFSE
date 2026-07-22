@@ -316,20 +316,3 @@ track my learning progress throughout the Digital Nurture program.
 ## Raghav Agrawal
 
 **B.Tech -- Computer Science and Engineering**
-
-### Connect with me
-
--   GitHub: https://github.com/RaghavAG05
-
-------------------------------------------------------------------------
-
-## Repository Status
-
-✔ Regularly Updated
-
-New exercises, assignments, and projects will be added as I continue the
-Cognizant Digital Nurture Java FSE training.
-
-------------------------------------------------------------------------
-
-⭐ **If you find this repository helpful, consider giving it a Star!**
