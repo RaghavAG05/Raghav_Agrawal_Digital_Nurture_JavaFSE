@@ -1,0 +1,97 @@
+Exercise : Git Branching and Merging
+
+Branching
+
+1. Open the GitDemo repository:
+
+  cd GitDemo
+
+2. Create a new branch named GitNewBranch:
+
+  git branch GitNewBranch
+
+3. Display all local and remote branches:
+
+  git branch -a
+
+The * mark shows the branch that is currently active.
+
+4. Switch to GitNewBranch:
+
+  git checkout GitNewBranch
+
+5. Create a new file in the branch:
+
+  echo "This file is created in GitNewBranch" > branchfile.txt
+
+6. Add the file to the staging area:
+
+  git add branchfile.txt
+
+7. Commit the changes:
+
+  git commit -m "Added file in GitNewBranch"
+
+8. Check the repository status:
+
+  git status
+
+  Merging
+
+1. Switch back to the master branch:
+
+  git checkout master
+
+2. Check the differences between master and GitNewBranch:
+
+  git diff master GitNewBranch
+
+3. View the differences using the configured P4Merge tool:
+
+  git difftool master GitNewBranch
+
+4. Merge GitNewBranch into the master branch:
+
+  git merge GitNewBranch
+
+5. Display the Git commit history:
+
+  git log --oneline --graph --decorate
+
+6. Delete GitNewBranch after merging:
+
+  git branch -d GitNewBranch
+
+7. Check the repository status:
+
+  git status
+
+Creating a Branch in GitLab
+
+1. Open the project in GitLab.
+
+2. Go to Repository and select Branches.
+
+3. Click New Branch.
+
+4. Enter GitNewBranch as the branch name.
+
+5. Select master as the source branch.
+
+6. Click Create Branch.
+
+Creating a Merge Request in GitLab
+
+1. Open the project in GitLab.
+
+2. Go to Merge Requests and select New Merge Request.
+
+3. Select GitNewBranch as the source branch.
+
+4. Select master as the target branch.
+
+5. Click Compare branches and continue.
+
+6. Enter the merge request title and description.
+
+7. Click Create Merge Request.
