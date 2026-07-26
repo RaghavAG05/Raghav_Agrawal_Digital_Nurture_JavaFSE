@@ -1,0 +1,112 @@
+Exercise : Resolving Merge Conflict
+
+1. Open the GitDemo repository:
+
+  cd GitDemo
+
+2. Check whether the master branch is clean:
+
+  git checkout master
+
+  git status
+
+3. Create and switch to a new branch named GitWork:
+
+  git checkout -b GitWork
+
+4. Create a file named hello.xml in GitWork:
+
+  echo "<message>Hello from GitWork branch</message>" > hello.xml
+
+5. Check the repository status:
+
+  git status
+
+6. Add and commit hello.xml:
+
+  git add hello.xml
+
+  git commit -m "Added hello.xml in GitWork branch"
+
+7. Switch back to the master branch:
+
+  git checkout master
+
+8. Create hello.xml in the master branch with different content:
+
+  echo "<message>Hello from master branch</message>" > hello.xml
+
+9. Add and commit the file in master:
+
+  git add hello.xml
+
+  git commit -m "Added hello.xml in master branch"
+
+10. Display the commit history of all branches:
+
+  git log --oneline --graph --decorate --all
+
+11. Check the differences between master and GitWork:
+
+  git diff master GitWork
+
+12. View the differences using P4Merge:
+
+  git difftool master GitWork
+
+13. Merge GitWork into master:
+
+  git merge GitWork
+
+Git displays a merge conflict because hello.xml contains different content in both branches.
+
+14. Check the conflicted file:
+
+  git status
+
+The file contains conflict markers similar to:
+
+<<<<<<< HEAD <message>Hello from master branch</message>
+<message>Hello from GitWork branch</message>
+
+> > > > > > > GitWork
+
+15. Open the configured 3-way merge tool:
+
+  git mergetool
+
+16. Select the required content in P4Merge, save the merged file and close the tool.
+
+17. Add the resolved file:
+
+git add hello.xml
+
+18. Commit the resolved merge:
+
+git commit -m "Resolved merge conflict in hello.xml"
+
+19. Ignore backup files created by the merge tool:
+
+  echo "*.orig" >> .gitignore
+
+20. Add and commit the updated .gitignore file:
+
+  git add .gitignore
+
+  git commit -m "Ignored merge backup files"
+
+21. Display all available branches:
+
+  git branch -a
+
+22. Delete GitWork after merging:
+
+  git branch -d GitWork
+
+23. Check the final repository status:
+
+  git status
+
+24. Display the final commit history:
+
+  git log --oneline --graph --decorate
