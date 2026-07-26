@@ -316,4 +316,4 @@ The repository is organized module-wise to make navigation easier and track my l
 ## Author
 
 **Raghav Agrawal**
-B.Tech - Computer Science and Engineering
+(B.Tech - Computer Science and Engineering)
