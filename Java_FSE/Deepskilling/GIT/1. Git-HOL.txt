@@ -1,0 +1,108 @@
+Exercise 1: Git Configuration
+
+1. Check the installed Git version:
+
+git --version
+
+2. Configure the user name:
+
+git config --global user.name "Raghav Agrawal"
+
+3. Configure the email address:
+
+git config --global user.email "[raghavagrawal0505@gmail.com](mailto:raghavagrawal0505@gmail.com)"
+
+4. Check the global Git configuration:
+
+git config --global --list
+
+Exercise 2: Integrate Notepad++ with Git
+
+1. Check whether Notepad++ is available:
+
+notepad++
+
+2. If the command is not recognized, add the location of notepad++.exe to the Path variable from Environment Variables.
+
+3. Create an alias for Notepad++:
+
+alias npp="notepad++.exe -multiInst -nosession"
+
+4. Configure Notepad++ as the default Git editor:
+
+git config --global core.editor "notepad++.exe -multiInst -nosession"
+
+5. Open the global Git configuration in the default editor:
+
+git config --global -e
+
+The configuration contains:
+
+[user]
+name = Raghav Agrawal
+email = [raghavagrawal0505@gmail.com](mailto:raghavagrawal0505@gmail.com)
+
+[core]
+editor = notepad++.exe -multiInst -nosession
+
+Exercise 3: Create a Local Git Repository
+
+1. Create and initialize a repository named GitDemo:
+
+git init GitDemo
+
+2. Open the GitDemo directory:
+
+cd GitDemo
+
+3. Display all files, including hidden files:
+
+ls -al
+
+The .git directory indicates that GitDemo has been initialized as a Git repository.
+
+4. Create a file named welcome.txt and add content to it:
+
+echo "Welcome to the version control" >> welcome.txt
+
+5. Check whether welcome.txt has been created:
+
+ls -al
+
+6. Display the content of welcome.txt:
+
+cat welcome.txt
+
+Exercise 4: Add and Commit the File
+
+1. Check the current repository status:
+
+git status
+
+2. Add welcome.txt to the staging area:
+
+git add welcome.txt
+
+3. Commit the file with a commit message:
+
+git commit -m "Add welcome message"
+
+4. Check the repository status after committing:
+
+git status
+
+Exercise 5: Git Pull and Git Push
+
+1. Pull changes from the remote master branch:
+
+git pull origin master
+
+2. Push committed changes to the remote master branch:
+
+git push origin master
+
+If the repository uses the main branch instead of master, the commands are:
+
+git pull origin main
+
+git push origin main
