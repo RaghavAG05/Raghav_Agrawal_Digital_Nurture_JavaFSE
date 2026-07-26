@@ -1,0 +1,54 @@
+Exercise : Using .gitignore
+
+1. Open the GitDemo repository:
+
+  cd GitDemo
+
+2. Create a log file:
+
+  echo "Application log" > application.log
+
+3. Create a folder named log:
+
+  mkdir log
+
+4. Create a file inside the log folder:
+
+  echo "Log details" > log/details.txt
+
+5. Create a .gitignore file:
+
+  touch .gitignore
+
+6. Open the .gitignore file in Notepad++:
+
+  notepad++ .gitignore
+
+7. Add the following entries to the .gitignore file:
+
+ *.log
+ log/
+
+The first entry ignores all files having the .log extension.
+The second entry ignores the complete log folder.
+
+8. Save and close the .gitignore file.
+
+9. Check the repository status:
+
+git status
+
+The application.log file and log folder are not displayed in the untracked files because they are ignored by Git. Only the .gitignore file is displayed.
+
+10. Add the .gitignore file: 
+  git add .gitignore
+
+11. Commit the .gitignore file:
+
+  git commit -m "Added gitignore file"
+
+12. Check the repository status again:
+
+  git status
+
+The ignored log file and log folder are not included in the commit.
