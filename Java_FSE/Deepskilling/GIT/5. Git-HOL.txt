@@ -1,0 +1,41 @@
+Exercise : Clean Up and Push Changes to Remote Git
+
+1. Open the GitDemo repository:
+
+  cd GitDemo
+
+2. Switch to the master branch:
+
+  git checkout master
+
+3. Check whether the master branch is clean:
+
+  git status
+
+The working tree should not contain any uncommitted changes.
+
+4. Display all local and remote branches:
+
+  git branch -a
+
+5. Pull the latest changes from the remote master branch:
+
+  git pull origin master
+
+6. Check the repository status after pulling:
+
+  git status
+
+7. Push the pending local commits to the remote repository:
+
+  git push origin master
+
+8. Check the repository status after pushing:
+
+  git status
+
+The local master branch should be up to date with the remote master branch.
+
+9. Open the remote repository and refresh the page.
+
+10. Check that the committed files and changes are available in the remote repository.
